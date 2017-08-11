@@ -3782,3 +3782,112 @@ body {
 {
   display: block;
 }
+.dropdown >a .dropdown-toggle:hover{
+      color:#36b0c8;
+        };
+   }
+  .register-background:before {
+    background: #f1eeec;
+    position: fixed;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    content: ""; }
+
+.main-register-contain {
+  display: table-cell;
+  vertical-align: middle; }
+
+.register-page {
+  display: table;
+  height: 80%;
+  margin: 0 auto;
+  min-width: 450px;
+  position: relative; }
+
+.register_input {
+  margin-bottom: 27px;
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+  display: table;
+  width: 100%; }
+  .register_input input {
+    border: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    width: 100%; }
+  .register_input label {
+    position: absolute;
+    font-size: 14px;
+    display: block;
+    margin-top: 3px;
+    color: #f84343;
+    font-weight: 700; }
+  .register_input .register-right-icon {
+    background: transparent;
+    color: #FFFFFF;
+    border-left: 0;
+    padding: 10px 15px;
+    font-size: 15px;
+    width: 1%;
+    display: table-cell; }
+
+.main-register-contain {
+  display: table-cell;
+  vertical-align: middle; }
+  .register-form {
+  background: #f1eeec;
+  padding: 50px 50px 50px 50px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  height: 80%;
+  width: 80%; 
+}
+
+.btn-register {
+     width: 100%;
+    border-width: 1px;
+    background-color: #097fc9;
+    font-weight: 600;
+    border-radius: 3px;
+    font-size: 12px;
+    line-height: 1.6em;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    padding: 10px 20px;
+    border-color: #888888;
+    color: white;
+    text-transform: uppercase;
+   }
+
+.register-form-border {
+  background: transparent;
+  color: #FFFFFF; }
+  .register-form-border:focus {
+    color: #FFFFFF;
+    background-color: transparent;
+    border-color: #FFFFFF; }
+
+.register-form .checkbox-login {
+  width: 100%;
+  font-size: 16px;
+  margin-top: 15px; }
+  .register-form .checkbox-login p {
+    padding-bottom: 15px;
+    line-height: 20px;
+    vertical-align: middle; }
+  .register-form .checkbox-login a {
+    cursor: pointer; }
+    .register-form .checkbox-login a:hover {
+      color: #087380; 
+      }
+    .checkbox-squared{
+    }
+   h3 {
+    text-align: left;
+   }
+   h2{
+    text-align: center;
+   }
+   .panel-heading:hover{
+     color: #097fc9;
+   }
